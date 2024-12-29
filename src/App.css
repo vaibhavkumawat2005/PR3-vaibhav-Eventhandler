@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #8e44ad, #3498db);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Container Styling */
+.super-modern-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/* Form Card */
+.form-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form-card h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-field input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #8e44ad, #3498db);
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #6c3483, #2471a3);
+  transform: scale(1.05);
+}
+
+/* User List */
+.user-list {
+  margin-top: 30px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-list th,
+.user-list td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+}
+
+.user-list th {
+  background: #3498db;
+  color: white;
+}
+
+.user-list tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.user-list tr:hover {
+  background: #f1f1f1;
+}
+
+.no-data {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+  margin-top: 10px;
+}

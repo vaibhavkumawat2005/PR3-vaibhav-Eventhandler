@@ -1,0 +1,212 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.super-modern-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-field {
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 5px rgba(78, 115, 223, 0.5);
+}
+
+input::placeholder {
+  color: #888;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::placeholder {
+  opacity: 0.5;
+}
+
+.submit-btn {
+  padding: 12px;
+  background-color: #4e73df;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #355a8a;
+  transform: translateY(-3px);
+}
+
+.submit-btn:active {
+  background-color: #4e73df;
+  transform: translateY(0);
+}
+
+/* Improved User List Styles */
+.user-list {
+  width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-list:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+}
+
+table th {
+  background-color: #f8f9fc;
+  font-weight: bold;
+  color: #4e73df;
+}
+
+table td {
+  background-color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.no-data {
+  text-align: center;
+  color: #888;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+table tr:hover th,
+table tr:hover td {
+  color: #4e73df;
+}
+
+/* Edit/Delete Button Styles */
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-right: 10px;
+
+}
+
+.edit-btn {
+  background-color: #f1c40f;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #e0b90f;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+table td button {
+  margin: 0 5px;
+}
