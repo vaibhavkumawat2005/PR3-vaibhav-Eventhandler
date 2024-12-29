@@ -1,5 +1,5 @@
 
-<h1>SuperModernForm</h1>
+<h1>Eventhandler</h1>
     <p>This project is a modern React-based user registration and management form. It allows users to create, edit, and delete user entries dynamically, with visual feedback for user interactions like hovering over rows.</p>
     <h2>Features</h2>
  <ul>
