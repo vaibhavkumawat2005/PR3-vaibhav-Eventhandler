@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SuperModernForm README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2 {
-            color: #4CAF50;
-        }
-        code {
-            background: #eee;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-    </style>
-</head>
-<body>
-    <h1>SuperModernForm</h1>
+
+<h1>SuperModernForm</h1>
     <p>This project is a modern React-based user registration and management form. It allows users to create, edit, and delete user entries dynamically, with visual feedback for user interactions like hovering over rows.</p>
     <h2>Features</h2>
  <ul>
@@ -43,7 +14,23 @@
         <li>JavaScript (ES6+)</li>
         <li>HTML & CSS for styling</li>
     </ul>
-    <h2>How to Run</h2>
+<h2> Screenshot and Video of Project</h2>
+
+
+
+
+https://github.com/user-attachments/assets/92a6ac0e-087b-4cb5-afc3-a8f17c46257a
+
+
+
+![Screenshot 2024-12-29 132839](https://github.com/user-attachments/assets/80a8f5e6-55de-4c54-b074-2ca9560891b3)
+![Screenshot 2024-12-29 132853](https://github.com/user-attachments/assets/6c46ec1b-37bc-4e26-b201-09eb453c0ded)
+![Screenshot 2024-12-29 132905](https://github.com/user-attachments/assets/78515fd4-74a7-4ad3-8dd5-48e99a866c8f)
+
+
+
+    
+<h2>How to Run</h2>
     <ol>
         <li>Ensure you have Node.js and npm installed.</li>
         <li>Clone the repository:</li>
@@ -85,8 +72,7 @@
     }}
 >`}</code></pre>
 
-    <h2>License</h2>
+  <h2>License</h2>
     <p>This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.</p>
 
-</body>
-</html>
+
